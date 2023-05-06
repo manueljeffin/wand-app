@@ -11,10 +11,10 @@ export default function Header() {
     >
       <h1 className={"font-bold text-3xl"}>Wand.</h1>
       <div className={"grow"}>
-        <div className={"hidden sm:flex items-center justify-evenly"}>
-          <Link href={"home"}>Ingredients</Link>
-          <Link href={"home"}>FAQs</Link>
-          <Link href={"home"}>About</Link>
+        <div className={"hidden lg:flex items-center justify-evenly"}>
+          <Link href={"ingredients"}>Ingredients</Link>
+          <Link href={"faq"}>FAQs</Link>
+          <Link href={"about"}>About</Link>
         </div>
       </div>
 
