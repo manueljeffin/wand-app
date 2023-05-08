@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "./Sidebar";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
