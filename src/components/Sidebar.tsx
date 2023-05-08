@@ -1,8 +1,9 @@
 import React from "react";
 
-import { Disclosure, Transition } from "@headlessui/react";
+import { Transition } from "@headlessui/react";
 import Link from "next/link";
 
+// eslint-disable-next-line react/prop-types
 function Sidebar({ open = false, setOpen }) {
   return (
     <>

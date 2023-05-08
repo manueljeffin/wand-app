@@ -1,7 +1,7 @@
 "use client";
+import React, {useState} from "react";
 
 import Link from "next/link";
-import { useState } from "react";
 import Sidebar from "./Sidebar";
 
 export default function Header() {
@@ -15,7 +15,7 @@ export default function Header() {
     >
       <button
         className={"mr-3"}
-        onClick={() => setOpen(true)}
+        onClick={() => { setOpen(true); }}
         aria-expanded={open}
         aria-controls="sidebar"
         aria-label="Open Menu"

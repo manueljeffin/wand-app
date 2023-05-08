@@ -21,6 +21,8 @@
   "include": [
     "src/**/*.ts",
     "test/**/*.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "./.eslintrc.js",
+    "next-env.d.ts"
   ]
 }
