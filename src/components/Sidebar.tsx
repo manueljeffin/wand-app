@@ -4,7 +4,7 @@ import { Transition } from "@headlessui/react";
 import Link from "next/link";
 
 // eslint-disable-next-line react/prop-types
-function Sidebar({ open = false, setOpen }) {
+export const Sidebar: React.FC<any> = ({ open = false, setOpen }) => {
   return (
     <>
       <Transition show={open}>
@@ -67,5 +67,3 @@ function Sidebar({ open = false, setOpen }) {
     </>
   );
 }
-
-export default Sidebar;
